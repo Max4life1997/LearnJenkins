@@ -16,8 +16,8 @@ class SpringJenkinsApplicationTests {
 
     @Test
     void contextLoads() {
-        System.out.println("Autotest: STAND " + standName);
-        System.out.println("Autotest: TEST_TEXT var " + testVar);
+        System.out.println("Autotest STAND: " + standName);
+        System.out.println("Autotest TEST_TEXT var: " + testVar);
     }
 
 }
