@@ -11,9 +11,13 @@ class SpringJenkinsApplicationTests {
     @Value("${test.stand}")
     public String standName;
 
+    @Value("${test.text}")
+    public String testVar;
+
     @Test
     void contextLoads() {
-        System.out.println("HI " + standName);
+        System.out.println("Autotest: STAND " + standName);
+        System.out.println("Autotest: TEST_TEXT var " + testVar);
     }
 
 }
