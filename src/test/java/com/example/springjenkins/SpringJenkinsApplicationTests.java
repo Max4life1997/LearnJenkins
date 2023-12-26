@@ -7,16 +7,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class SpringJenkinsApplicationTests {
 
-
-    @Value("${test.stand}")
-    public String standName;
-
     @Value("${test.text}")
     public String testVar;
 
     @Test
     void contextLoads() {
-        System.out.println("Autotest STAND: " + standName);
+//        System.out.println("Autotest STAND: " + standName);
         System.out.println("Autotest TEST_TEXT var: " + testVar);
     }
 
